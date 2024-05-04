@@ -1,0 +1,185 @@
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /*********** start header ************/
+  .free-delivery p {
+    font-size: 14px;
+  }
+  .sandc input {
+    margin: 0;
+  }
+  .sandc button {
+    margin: 1px 1px 0 0;
+  }
+  .menu-categories .all-categories a {
+    font-size: 12px;
+    padding: 11px 13px;
+  }
+  .sandc .menu-categories {
+    margin-top: 8px;
+  }
+  /******* header-bottom-nav ******/
+
+  /*********** start main *************/
+  .FP-products > div , .BSP-products > div {width: 220px;}
+  .nav-footer nav ul {
+    justify-content: space-around;
+  }
+  .nav-footer nav ul li {
+    margin: 0;
+  }
+  /*********** start footer ************/
+}
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .title-categories-jewelry h2 {
+    font-size: 20px;
+  }
+
+}
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .boxs-jewelry {
+    width: 48%;
+  }
+  /*******/
+.latest-news-article article {
+  width: 49%;
+}
+
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  /**** display flex ****/
+  .social-footer,
+.lands {display: flex;}
+  /**** justify center ****/
+  .social-footer,
+  .lands,.FDO-sandc,.header-top-content {justify-content: center;}
+  /**** justify space between ****/
+  .middle-header-content { justify-content: space-between;}
+  /**** flex wrap ****/
+  .header-top-content {
+    flex-wrap: wrap;
+  }
+  /**** top-header ****/
+  /**** middle-header ****/
+  .logo i {
+    font-size: 15px;
+    padding: 8px 7px;
+  }
+  .logo span {
+    font-size: 20px;
+  }
+  .sandc {
+    height: 30px;
+  }
+  .sandc input {width: 220px;}
+  .sandc button {
+    width: 26px;
+    height: 26px;
+  }
+  .sandc button i {
+    font-size: 12px;
+  }
+  /******/
+  .boxs-categories {
+    min-width: 90%;
+  }
+  /******/
+  .boxs-jewelry {
+    width: 100%;
+  }
+  /*******/
+.latest-news-article article {
+    width: 100%;
+}
+
+.lands{justify-content: space-around;
+  width: 100%;}
+
+  #BSP-categories a {
+    margin: 0 5px;
+    padding: 8px 11px;
+  }
+  #BSP-categories a:nth-child(2)::before {
+    left: -10px;
+  }
+  #BSP-categories a:nth-child(2)::after {
+    right: -10px;
+  }
+}
+@media (min-width: 320px) and (max-width: 1024px) {
+/**** display none ****/
+.social-header,.my-account,.header-bottom-nav,.menu-categories,.free-delivery,.sandc {display: none;}
+/**** display block ****/
+.menu-list { display: block;}
+/**** flex wrap ****/
+.popular-categories-content,.BSP-products,.categories-jewelry-content,.FP-products,.latest-news-article,.notes-for-customers,.NBCF-footer,.nav-footer nav ul {flex-wrap: wrap;}
+/****************************************/
+.middle-header-content,.middle-header {height:auto ;}
+.middle-header-content {padding: 20px 0; margin: 0;}
+/*******************/
+.popular-categories-content {justify-content: space-around; padding: 20px 0;}
+.boxs-categories {margin:10px auto !important;}
+/******************/
+.BSP-products {
+  justify-content: space-around;
+}
+.BSP-boxs {margin: 5px auto;}
+/******/
+.boxs-jewelry {
+ margin: 5px auto;
+}
+/*******/
+.latest-news {
+  height: auto;
+  padding: 20px;
+}
+/*******/
+.news-letter, .lands, .concierge {
+  text-align: center;
+}
+.news-letter a{
+  margin: 0 auto;
+}
+/******/
+.NBCF-footer {
+  justify-content: space-around;
+}
+
+.news-letter{order: 1;}
+.concierge{order: 2;}
+
+/******************/
+.box-content-slider a:hover { color: #fff;}
+
+.boxs-categories:hover {
+  box-shadow: none;
+}
+.boxs-categories a:hover{
+  background: #91919147;
+}
+.BSP-boxs #img-product a:hover img {
+  transform: scale(0.7);
+}
+
+.BSP-boxs #img-product a::after {
+  display: none;
+}
+.boxs-jewelry .img-categories-jewelry img:hover {
+  transform: scale(0.8);
+}
+.btn-categories-jewelry a:hover{color: rgb(39, 39, 39);}
+.read-more-article a:hover,.news-letter a:hover,.social-footer nav a:hover {
+  background-color: #fff;
+    color: #000;
+}
+}
